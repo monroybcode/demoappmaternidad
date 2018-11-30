@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/assets/ico/favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Membresia StarMédica</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starmedica.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body onload="onLoad()" >
+<!-- Top Navigation Menu -->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="principal.html">Inicio</a>
+  <a href="contracciones.html">Registro de contraciones</a>
+  <a href="consejos.html">Consejos y Tips</a>
+  <a href="configuracion.html">Configuración</a>
+</div>
+<!-- Use any element to open the sidenav -->
+
+<!--/. Sidebar navigation -->
+
+
+    <!-- Wrap all page content here -->
+    <div id="mainprincipal">
+     <div class="container ">  
+      <span onclick="openNav()"><img src="img/menu-button-of-three-horizontal-lines.png"  width="25px" height="25px" >
+  
+
+</span>
+     <br/>  
+       <div class="col-xs-12" style="text-align:center;"><img src="img/logo.png" class="logo"  ></div> 
+       
+      
+        <div class="circulosemanas" style="text-align:center ;">
+          <br>
+          <p style="font-size: 55px;color:gray">Semana</p>
+          <p style="font-size: 100px;line-height:20px;color:gray">  35</p>
+        </div>      
+      <div class="circulodias" style="text-align:center ;">
+          <br>
+          <p style="font-size: 55px;line-height:30px;color:orange;font-weight: bold;">49</p>
+          <p style="font-size: 55px;line-height:30px;color:gray">Dias</p>
+        </div>
+    
+ <div class="row" style="left:20%;top:  70%;position: absolute;background-color:#ffe6ea">
+
+
+  <!-- List group -->
+  <ul class="list-group" style="background-color:#ffe6ea;">
+    <li class="list-group-item" style="color:gray;background-color:#ffe6ea">  Su proxima cita &nbsp;&nbsp;&nbsp; <img src="img/doctor.png" ></li>
+    <li class="list-group-item" style="color:gray;background-color:#ffe6ea">Martes 14 Diciembre 2018 9:45</li>
+   
+   
+  </ul>
+</div>
+          
+     </div>
+</div>
+ <div id="footer" class="piehome">
+      <div class="container" > 
+       <div class="row">
+         <div class="col-xs-3  ancho " >
+            <a href="principal.html"  ><img src="img/home-icon-silhouette.png" class="img menu" alt="Inicio"  >
+             </a> 
+          </div>
+            <div class="col-xs-3  ancho " >
+            <a href="preadmision.html"  ><img src="img/admision-form.png" class="img menu" alt="Preadmision"  >
+             </a> 
+          </div>
+          <div class="col-xs-3 ancho">
+            <a href="calendario.html"><img src="img/christmas-day.png" class="img menu" alt="Calendario">
+               
+            </a>
+             
+          </div>
+          <div class="col-xs-3 ancho">
+           <a href="nuevacita.html"><img src="img/medical-doctor-specialist.png" class="img menu" alt="Cita Médica">
+           </a>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+      navigator.app.exitApp();
+    }
+
+    </script>
+
+  </body>
+</html>

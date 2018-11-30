@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/assets/ico/favicon.png">
+
+    <title>Membresia StarMédica</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starmedica.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body onload="onLoad()" >
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="principal.html">Inicio</a>
+  <a href="contracciones.html">Registro de contraciones</a>
+  <a href="consejos.html">Consejos y Tips</a>
+  <a href="configuracion.html">Configuración</a>
+</div>
+    <!-- Wrap all page content here -->
+    <div id="mainprincipal">
+
+   
+
+     <div class="container "> 
+      <span onclick="openNav()"><img src="img/menu-button-of-three-horizontal-lines.png"  width="25px" height="25px" >
+  
+
+</span> 
+       <br/>  
+       <div class="col-xs-12" style="text-align:center;"><img src="img/logo.png" class="logo"  ></div> 
+       
+<br>
+      <div class="row" >
+          <div class="col-xs-1" style="width:5%"></div>
+          <div class="col-xs-10" style="width:90%;background-color: #fff;padding: 3%">
+
+         <span  class="titulohome" >Registrar nueva cita</span>  <br>
+               <!--span  class="textorecuperar" >Se enviara un correo electronico con un NIP, el cual debera ingresar para reestablecer la contraseña</span-->
+                   <div class="form-group ">
+                    <label for="exampleInputEmail1" class="labelform">Titulo:</label>
+                    <input type="text" class="form-control " id="exampleInputEmail1"  placeholder="Titulo">
+                  </div>
+              
+                 <div class="form-group ">
+                    <label for="exampleInputEmail1" class="labelform">Descripcion:</label>
+                    <input type="text" class="form-control " id="exampleInputEmail1"  placeholder="Captura una descripción">
+                  </div>
+                   <div class="form-group">               
+                  <label class="labelform">Fecha::</label>
+                  <input type="datepicker" name="" class="form-control " ">
+                </div>
+                <div class="form-group">               
+                  <label class="labelform">Hora:</label>
+                  <input type="time" name="" class="form-control " >
+                </div>
+            
+                <div class="col-xs-12" style="text-align: center;padding-top: 7px;">
+                  <button type="button" class="btn btn-secondary " onclick="location.href='principal.html'"  >Cancelar</button>
+                  <button type="button" class="btn btn-rosa  " onclick="location.href='calendario.html'"  >Guardar</button>
+                </div> 
+           
+                            
+          </div>
+          <div class="col-xs-1" style="width:5%"></div>
+        </div>
+
+
+
+
+
+      
+        
+
+    </div>
+          
+     </div>
+</div>
+ <div id="footer" class="piehome">
+      <div class="container" > 
+       <div class="row">
+         <div class="col-xs-3  ancho " >
+            <a href="principal.html"  ><img src="img/home-icon-silhouette.png" class="img menu" alt="Inicio"  >
+             </a> 
+          </div>
+            <div class="col-xs-3  ancho " >
+            <a href="preadmision.html"  ><img src="img/admision-form.png" class="img menu" alt="Preadmision"  >
+             </a> 
+          </div>
+          <div class="col-xs-3 ancho">
+            <a href="calendario.html"><img src="img/christmas-day.png" class="img menu" alt="Calendario">
+               
+            </a>
+             
+          </div>
+          <div class="col-xs-3 ancho">
+           <a href="nuevacita.html"><img src="img/medical-doctor-specialist.png" class="img menu" alt="Cita Médica">
+           </a>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+   
+          
+
+
+    <!-- Javascripts -->
+  
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+ 
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+   
+     $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+      navigator.app.exitApp();
+    }
+
+    </script>
+
+  </body>
+</html>

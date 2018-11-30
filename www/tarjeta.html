@@ -1,0 +1,132 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/assets/ico/favicon.png">
+    <title>Membresia StarMédica</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starmedica.css" rel="stylesheet">
+
+   
+  </head>
+  <body>
+  
+<div class="scene scene--card" >
+  <div class="card">
+    <div class="card__face card__face--front">
+            <div class="container">  
+               <div class="row"  >
+                  <div class="col-xs-12" style="text-align:center "><img src="img/logo.png" class="logo"  ></div>   
+               </div> 
+               <div class="row" style="height: 20px"></div> 
+                <div class="row" >
+                  <div class="col-xs-12" style="text-align:center "><img class="img-responsive membresia" src="img/membresia.png"  > </div> 
+                </div> 
+
+                  
+                  <span  class="titulomembresia"  >Nombre</span>
+                  <span class="textomembresia"  >Sr. Alberto Suárez Renteria</span>
+                  <br>
+                  <span class="titulomembresia"  >Fecha de Nacimiento</span>
+                  <span class="textomembresia"  >07/01/1970</span>
+                  <br>
+                  <span class="titulomembresia"  >Membresía</span>
+                  <span class="textomembresia" >854312</span>
+                </div>
+
+    </div>
+    <div class="card__face card__face--back">
+      
+
+         <div class="container"> 
+        <br> 
+         <div class="col-xs-12" style="text-align:center;"><img class="img-responsive qr" src="img/qr.png" alt="Logo" ></div>  
+         <div class="col-xs-12" style="height: 10px"></div>       
+         <span class="titulomembresia "  >Convenio</span>     
+          <div class="col-xs-12" style="text-align:center;"> <img class="img-responsive logo" src="img/citi.png"  > </div>  
+          
+          <span  class="titulomembresia"  >Nombre</span>
+          <span class="textomembresia"  style="color: white">Alberto Suárez Renteria</span>
+           <p  class="space"  > </p>
+          <span class="titulomembresia"  style="color: white">No. Empleado</span>
+          <span class="textomembresia"  style="color: white">12851</span>
+        <p  class="space"  > </p>
+          <span class="titulomembresia"  style="color: white">Expira</span>
+          <span class="textomembresia"  style="color: white">23/06/2021</span>
+          <br> <br>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+            
+  <div id="footer" class="piehome">
+      <div class="container" > 
+       <div class="row">
+            <div class="col-xs-2  ancho" >
+            <a href="tarjeta.html" ><img src="img/tarjet.png" class="img menu" alt="Mi tarjeta"  ></a>
+          </div>
+          <div class="col-xs-2 ancho">
+            <a href="DatosPaciente.html"><img src="img/datos.png" class="img menu" alt="Mis datos"></a>
+          </div>
+          <div class="col-xs-2 ancho">
+           <a href="beneficios.html"><img src="img/beneficios.png" class="img menu" alt="Beneficios"></a>
+          </div>
+          <div class="col-xs-2 ancho">
+            <a href="mapa.html"><img src="img/hospital.png" class="img menu" alt="Ubicaciones"></a>
+          </div>
+          <div class="col-xs-2 ancho">          
+            <a href="Citas.html"><img src="img/cita.png" class="img menu" alt="Citas"></a>
+          </div>
+          <div class="col-xs-2 ancho">            
+            <a href="index.html"><img src="img/salir.png" class="img menu" alt="Salir"></a>
+          </div>  
+      </div>
+    </div>
+  </div>
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  
+  
+    <script type="text/javascript">
+var card = document.querySelector('.card');
+/*
+card.addEventListener( 'click', function() {
+  card.classList.toggle('is-flipped');
+});
+
+card.addEventListener( "mousemove", function() {
+  card.classList.toggle('is-flipped');
+});*/
+
+card.addEventListener("touchstart", function() {
+
+   card.classList.toggle('is-flipped');
+});
+
+/*
+card.addEventListener("touchstart", function() {
+
+   card.classList.toggle('is-flipped');
+});*/
+</script>
+  </body>
+</html>

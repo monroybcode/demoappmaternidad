@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+   
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/assets/ico/favicon.png">
+
+    <title>Membresia StarMédica</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starmedica.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body onload="onLoad()" >
+
+    <!-- Wrap all page content here -->
+    <div id="main">
+
+   
+
+     <div class="container">  
+     <br/>  
+       <div class="col-xs-12" style="text-align:center "><img src="img/logo-header.png" class="logo"  ></div> 
+       
+       <div class="col-xs-12 titulorosa" >Maternidad</div> 
+      
+            
+     
+        <div class="row" >
+          <div class="col-xs-1" style="width:10%"></div>
+          <div class="col-xs-10" style="width:80%;background-color: #fff;padding: 3%;">
+               
+               <span  class="titulohome" style="text-align: center;">Recuperar contraseña</span>  
+               <span  class="textorecuperar" >Se enviara un correo electronico con un NIP, el cual debera ingresar para reestablecer la contraseña</span>
+                   <div class="form-group ">
+                    <label for="exampleInputEmail1" class="labelform">Correo electronico:</label>
+                    <input type="text" class="form-control delgado" id="exampleInputEmail1"  placeholder="Correo">
+                  </div>
+                  <div class="col-xs-12" style="text-align: center;padding-top: 7px;">
+                  <button type="button" class="btn  btn-rosa btn-block delgado"   >Enviar NIP</button>
+                </div> 
+                <hr style="color:#DB7093; height: 1px;border: 0;background-color: #DB7093;"></hr>
+                 <div class="form-group ">
+                    <label for="exampleInputEmail1" class="labelform">Ya cuento con un NIP:</label>
+                    <input type="text" class="form-control delgado" id="exampleInputEmail1"  placeholder="NIP">
+                  </div>
+                   <div class="form-group">               
+                  <label class="labelform">Contraseña:</label>
+                  <input type="password" name="" class="form-control delgado"  placeholder="Contraseña ">
+                </div>
+                <div class="form-group">               
+                  <label class="labelform">Repita su contraseña:</label>
+                  <input type="password" name="" class="form-control delgado" placeholder="Repita su contraseña">
+                </div>
+            
+                <div class="col-xs-12" style="text-align: center;padding-top: 7px;">
+                  <button type="button" class="btn btn-rosa btn-block delgado" onclick="location.href='principal.html'"  >Actualizar</button>
+                </div> 
+              
+                            
+          </div>
+          <div class="col-xs-1" style="width:10%"></div>
+        </div>
+         
+          
+     </div>
+</div>
+  <div id="footer" class="piehome">
+      <div class="container" > 
+        <br>
+       <img src="img/espacio.png" class="img-responsive" style="width: 50%;height: 10%;">     
+      </div>
+    </div>
+
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+      navigator.app.exitApp();
+    }
+
+    </script>
+
+  </body>
+</html>

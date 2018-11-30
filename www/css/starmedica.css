@@ -1,0 +1,484 @@
+
+@font-face {
+    font-family: 'HelveticaNeue';
+
+    src: url('../fonts/helvetica-neue-light.eot');
+    src: url('../fonts/helvetica-neue-light.eot?#iefix') format('embedded-opentype'), url('../fonts/helvetica-neue-light.woff') format('woff'), url('../fonts/helvetica-neue-light.ttf') format('truetype'), url('../fonts/helvetica-neue-light.helvetica-neue-light') format('svg');
+}
+/*
+@media screen and (max-aspect-ratio: 1/1) {
+ .menu
+   {
+    display:inline-block;
+    width:50%;
+   }
+
+.ancho[class*="col-xs-2"] {
+    padding: 0;
+     width:10%;
+  border: 0px ;
+}
+}*/
+
+@media only screen and (max-width: 520px) {
+   .ancho[class*="col-xs-3"] {
+    padding: 0%;
+    width:  25%;
+    border: 0px ;
+}
+
+
+.menu
+   {
+    display:inline-block;
+    width:13%;
+   }
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffccdb; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: grey;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.text-gray {
+  color: #565453 ;
+}
+.botongris{
+color: white; 
+background: #a2a0a0; 
+}
+
+
+.icono{
+width: 40%;
+
+
+}
+
+.titulohome
+{
+text-decoration-color:#4B4E53; 
+text-align: center ;
+font-family: HelveticaNeue;
+font-size: 24px;
+display:block;
+}
+
+.titulorosa
+{
+color:#DB7093; 
+text-align: center ;
+font-weight: bold;
+font-family: HelveticaNeue;
+font-size: 40px;
+/*display:block;*/
+}
+
+.labelform
+{
+text-decoration-color:#999899; 
+font-size: 14px;
+
+}
+
+.logo {
+    /*height: 10%*/
+    width: 60%;
+    text-align: center;
+
+}
+.imgbeneficios {
+    /*height: 10%*/
+    width: 100%;
+    text-align: center;
+}
+.qr {
+    /*height: 10%*/
+    width: 30%;
+    text-align: center;
+    background: white ;
+  
+}
+
+
+.membresia {
+    
+    width: 90%;
+    text-align: center;
+
+}
+.delgado{
+
+  height: 23px;
+padding: 0.05rem 0.05rem;
+}
+
+
+.titulobeneficios
+{
+color: white;
+font-size: 24px;
+}
+.textobeneficios
+{
+color: white;
+font-size: 14px;
+}
+.textorecuperar
+{
+color: gray;
+font-size: 14px;
+text-align: justify;
+display:block;
+}
+.textomapa
+{
+line-height: 15px;
+color: white;
+font-size: 16px;
+}
+.titulomembresia
+{
+color:white; 
+text-align: center ;
+font-family: HelveticaNeue;
+font-size: 15px;
+display:block;
+font-weight: bolder;
+}
+.textomembresia
+{
+color:white; 
+text-align: center ;
+font-family: HelveticaNeue;
+font-size: 19.5px;
+display:block;
+font-weight: normal;
+}
+
+.space{
+margin: 6px;
+ line-height: .25; font-size: .4em ;
+}
+
+/*.scene {
+
+   width: 100%;
+  height: 95%;
+  border: 1px;
+
+ 
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+}*/
+/* Styles go here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+ 
+}
+ /*body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }*/
+
+#main1{
+   
+     /* The image used */
+ background-image: url("../img/fondo1.png");
+    z-index: 1;
+
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ #mainprincipal{
+   
+     /* The image used */
+ background-image: url("../img/fondo_naranja.png");
+    z-index: 1;
+
+    height: 90%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+ #main{
+   
+     /* The image used */
+ background-image: url("../img/fondo2.png");
+    z-index: 1;
+
+    height: 90%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #tarjetafrente{
+   flex: 1 0 auto;
+     /* The image used */
+ background-image: url("../img/tarjeta.png");
+    z-index: 1;
+    /* Full height */
+   height: 90%; 
+   min-height: 90%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+ #tarjetaatras{
+    /*  flex: 1 0 auto;*/
+     /* The image used */
+ background-image: url("../img/vuelta.png");
+  /*  z-index: 1;*/
+    /* Full height */
+    height: 90%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:none;
+ 
+}
+
+ #general{
+    flex: 1 0 auto;
+     /* The image used */
+    background-image: url("../img/gris.png");
+    z-index: 1;
+    /* Full height */
+    height: 90%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*background: #F5F5F5;*/
+  overflow-y: scroll;
+ /* margin-bottom: 25px;*/
+ 
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  display: block;  
+    position: fixed;
+    border-bottom: 0;
+    height: 10%; 
+    max-width: 100%;
+    width: 100%;
+     min-width: 100%;
+     resize: true;
+}
+
+.circulosemanas
+{
+   width: 250px;
+    height: 250px;
+    background: #ffe6ea;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    border-color: #DB7093;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    left:15%;
+    top:15%;
+
+}
+.circulodias
+{
+   width: 150px;
+    height: 150px;
+    background: #ffffff;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    border-color: #DB7093;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    left:44%;
+    top:39%;
+
+}
+.circuloboton
+{
+   width: 140px;
+    height: 140px;
+    background: #ffe6cc;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    border-color: #DB7093;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    left:53%;
+    top:36%;
+
+}
+.linkmenu{
+  color:gray;
+
+}
+.piehome {
+vertical-align: middle !important;
+  text-align: center;
+  background-color: #ffb3c9;
+   
+}
+
+.menu{
+   border: 0px;
+   max-width: 50%;
+   width: 50%;
+/*width: 30%;*/
+
+}
+.inputdg{
+width: 90%;
+height: 34px;
+background: #999899;
+color: white;
+font-size: 14px;
+}
+
+
+
+.textxareadg{
+width: 90%;
+background: #999899;
+
+}
+
+
+
+
+.scene {
+  width: 100%;
+  height: 90%;
+  /*border: 0px solid #CCC;
+  margin: 0px 0;
+  perspective: 1000px;*/
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+/*  cursor: pointer;*/
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*line-height: 260px;
+  color: white;*/
+  text-align: center;
+  font-weight: bold;
+ /* font-size: 40px;*/
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+   background-image: url("../img/tarjeta.png");
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__face--back {
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-image: url("../img/vuelta.png");
+  transform: rotateY(180deg);
+}
+
+#timer{margin:30px auto 0;width:200px;}
+#timer .container{display:table;color:#808080;font-weight:bold;width:100%;text-align:center;text-shadow:1px 1px 4px #999;}
+#timer .container div{display:table-cell;font-size:25px;padding:0px;width:20px;}
+#timer .container .divider{width:10px;color:#808080;}
+#btn-comenzar{box-sizing:border-box;border:none;margin:0 auto;padding:15px;width:90%;font-size:25px;color:#777;cursor:pointer;}
+/*#btn-comenzar:hover{background:#fff;*/}

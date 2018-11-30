@@ -1,0 +1,201 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/assets/ico/favicon.png">
+    <title>Membresia StarMédica</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starmedica.css" rel="stylesheet">
+
+   
+  </head>
+  <body>
+  <div id="general" style="">
+    <div class="container" > 
+    <br> 
+    <form>
+      <div class="row"  >
+        <div class="col-xs-12" style="text-align:center "><img src="img/logo.png" class="logo"  ><br/><br/> </div>  
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-10" style="width:85%">
+                <label style="color: white;font-size: 18px">Datos personales</label>
+                 <div class="form-group " >
+                   <input type="text" class="form-control inputdg" placeholder="Nombre completo" value="Alberto Suárez Renteria"/>
+                </div>
+                <div class="form-group " >
+                  <input type="text" class="form-control inputdg" placeholder="Dirección">
+                </div>
+              </div>
+        <div class="col-xs-1" style="width:5%"></div>
+      </div> 
+       <div class="row"  >      
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-5" style="width:40%">
+                 <div class="form-group ">
+                   <input type="tel" class="form-control inputdg" placeholder="Teléfono" value="123-456-7890"
+                    placeholder="123-456-7890"
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+
+                  </div>
+              </div>
+              <div class="col-xs-5" style="width:45%">
+                <div class="form-group ">
+                  <input type="text" class="form-control inputdg" placeholder="Sexo" style="width: 80%;" value="Masculino">
+                 </div>
+              </div>
+        <div class="col-xs-1" style="width:10%"></div>
+      </div> 
+       <div class="row"  >      
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-5" style="width:40%">
+                <div class="form-group ">
+                 <input type="text" class="form-control inputdg" placeholder="Religión">
+                 </div>
+              </div>
+              <div class="col-xs-5" style="width:45%">
+                <div class="form-group ">
+                 <input type="date" class="form-control inputdg" placeholder="Cumpleaños" style="width: 80%;" value="1970-01-07"/>
+                 </div>
+              </div>
+        <div class="col-xs-1" style="width:5%"></div>
+      </div>
+    <div class="row"  >
+        <div class="col-xs-12" style="text-align:center "><br/><br/> </div>  
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-10" style="width:85%">
+                <label style="color: white;font-size: 18px">Datos clinicos</label>
+                 <div class="form-group ">
+                   <input type="text" class="form-control inputdg" placeholder="Tipo de sangre">
+                </div>
+                <div class="form-group ">
+                  <input type="text" class="form-control inputdg" placeholder="Alergias" tabindex="1" >
+                </div>
+              </div>
+        <div class="col-xs-1" style="width:5%"></div>
+      </div>
+           <div class="row"  >      
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-5" style="width:40%">
+                <div class="form-group ">
+                 <input type="number" class="form-control inputdg" placeholder="Peso" tabindex="2">
+                 </div>
+              </div>
+              <div class="col-xs-5" style="width:45%">
+                <div class="form-group ">
+                 <input type="number" class="form-control inputdg" placeholder="Estatura" style="width: 80%;">
+                 </div>
+              </div>
+        <div class="col-xs-1" style="width:5%"></div>
+      </div>
+    <div class="row"  >        
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-10" style="width:85%">               
+                 <div class="form-group ">
+                   <input type="text" class="form-control inputdg" placeholder="En caso de emergencia avisar a:">
+                </div>                
+              </div>
+        <div class="col-xs-1" style="width:5%"></div>
+      </div>
+      <div class="row"  >        
+        <div class="col-xs-1" style="width:10%"></div>
+              <div class="col-xs-10" style="width:85%;text-align: center">               
+                 <div class="form-group ">
+                  <button type="button" class="btn  botongris "  onclick="mostrarAviso();"  >Guardar</button>
+                </div>                
+              </div>
+        <div class="col-xs-1" style="width:5%"></div>
+      </div>
+<form>
+    </div>
+ </div>
+
+
+
+
+
+
+  <div id="footer" class="piehome">
+      <div class="container-fluid" > 
+       <div class="row ">
+            <div class="col-xs-2 ancho" >
+            <a href="tarjeta.html" ><img src="img/tarjet.png" class="img-responsive menu" alt="Mi tarjeta"  ></a>
+          </div>
+          <div class="col-xs-2 ancho">
+            <a href="DatosPaciente.html"><img src="img/datos.png" class="img-responsive menu" alt="Mis datos"></a>
+          </div>
+          <div class="col-xs-2 ancho">
+           <a href="beneficios.html"><img src="img/beneficios.png" class="img-responsive menu" alt="Beneficios"></a>
+          </div>
+          <div class="col-xs-2 ancho">
+            <a href="mapa.html "><img src="img/hospital.png" class="img-responsive menu" alt="Ubicaciones"></a>
+          </div>
+          <div class="col-xs-2 ancho">          
+            <a href="Citas.html"><img src="img/cita.png" class="img-responsive menu" alt="Citas"></a>
+          </div>
+          <div class="col-xs-2 ancho">            
+            <a href="index.html"><img src="img/salir.png" class="img-responsive menu" alt="Salir"></a>
+          </div>  
+      </div>
+    </div>
+  </div>
+      
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+   <script type="text/javascript">
+     
+     var card = document.querySelector('.tarjetafrente');
+card.addEventListener( 'click', function() {
+  card.classList.toggle('is-flipped');
+});
+
+function mostrarAviso()
+{
+
+//  alert('se guardo');
+}
+
+$(document).ready(function () {
+    $.fn.enterkeytab = function () {
+        $(this).on('keydown', 'input,select,text,button', function (e) {
+            var self = $(this)
+              , form = self.parents('form:eq(0)')
+              , focusable
+              , next
+            ;
+            if (e.keyCode == 13) {
+                focusable = form.find('input,a,select').filter(':visible');
+                next = focusable.eq(focusable.index(this) + 1);
+                if (next.length) {
+                    //if disable try get next 10 fields
+                    if (next.is(":disabled")){
+                        for(i=2;i<10;i++){
+                            next = focusable.eq(focusable.index(this) + i);
+                            if (!next.is(":disabled"))
+                                break;
+                        }
+                    }
+                    next.focus();
+                }
+                return false;
+            }
+        });
+    }
+    $("form").enterkeytab();
+});
+
+   </script>
+    
+  </body>
+</html>
